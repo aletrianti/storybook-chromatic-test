@@ -1,36 +1,36 @@
 {
-  "name": "storybook-chromatic-test",
-  "version": "1.0.0",
-  "main": "index.js",
-  "dependencies": {
-    "vue": "^3.2.38"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.18.13",
-    "@storybook/addon-actions": "^6.5.10",
-    "@storybook/addon-essentials": "^6.5.10",
-    "@storybook/addon-interactions": "^6.5.10",
-    "@storybook/addon-links": "^6.5.10",
-    "@storybook/builder-webpack4": "^6.5.10",
-    "@storybook/manager-webpack4": "^6.5.10",
-    "@storybook/testing-library": "0.0.13",
-    "@storybook/vue3": "^6.5.10",
-    "babel-loader": "^8.2.5",
-    "chromatic": "^6.9.0",
-    "vue-loader": "^16.8.3"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=a2b04e45b30a"
-  },
-  "keywords": [],
-  "author": {
-    "name": "Alessia Trianti"
-  },
-  "license": "ISC",
-  "description": "",
-  "readme": "ERROR: No README data found!",
-  "_id": "storybook-chromatic-test@1.0.0"
+    "name": "storybook-chromatic-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "dependencies": {
+        "vue": "^3.2.38"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.18.13",
+        "@storybook/addon-actions": "^6.5.10",
+        "@storybook/addon-essentials": "^6.5.10",
+        "@storybook/addon-interactions": "^6.5.10",
+        "@storybook/addon-links": "^6.5.10",
+        "@storybook/builder-webpack4": "^6.5.10",
+        "@storybook/manager-webpack4": "^6.5.10",
+        "@storybook/testing-library": "0.0.13",
+        "@storybook/vue3": "^6.5.10",
+        "babel-loader": "^8.2.5",
+        "chromatic": "^6.9.0",
+        "vue-loader": "^16.8.3"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "storybook": "start-storybook -p 6006",
+        "build-storybook": "build-storybook",
+        "chromatic": "npx chromatic --project-token=a2b04e45b30a --exit-zero-on-changes"
+    },
+    "keywords": [],
+    "author": {
+        "name": "Alessia Trianti"
+    },
+    "license": "ISC",
+    "description": "",
+    "readme": "ERROR: No README data found!",
+    "_id": "storybook-chromatic-test@1.0.0"
 }
