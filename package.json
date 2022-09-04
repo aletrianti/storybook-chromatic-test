@@ -22,10 +22,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "chromatic": "npx chromatic --project-token=a2b04e45b30a"
   },
   "keywords": [],
-  "author": "Alessia Trianti",
+  "author": {
+    "name": "Alessia Trianti"
+  },
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "readme": "ERROR: No README data found!",
+  "_id": "storybook-chromatic-test@1.0.0"
 }
