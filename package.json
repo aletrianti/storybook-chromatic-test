@@ -3,6 +3,8 @@
     "version": "1.0.0",
     "main": "index.js",
     "dependencies": {
+        "autoprefixer": "^10.4.8",
+        "postcss-flexbugs-fixes": "^5.0.2",
         "vue": "^3.2.38"
     },
     "devDependencies": {
