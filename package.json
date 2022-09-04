@@ -23,7 +23,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
-        "chromatic": "npx chromatic --project-token=a2b04e45b30a --exit-zero-on-changes"
+        "chromatic": "npx chromatic --project-token=CHROMATIC_PROJECT_TOKEN --exit-zero-on-changes"
     },
     "keywords": [],
     "author": {
